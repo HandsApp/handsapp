@@ -1,25 +1,227 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController autoresizesArchivedViewToFullSize="NO" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXW-8c-mIW">
+                                <rect key="frame" x="160" y="0.0" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.36078431370000003" blue="0.3294117647" alpha="0.75" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Sistema de Usuarios">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IpS-Yc-Ico" kind="modal" modalTransitionStyle="flipHorizontal" id="UZq-S6-8cf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lu5-fq-Mik">
+                                <rect key="frame" x="0.0" y="284" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.49803921568627452" green="0.81960784313725488" blue="0.72549019607843135" alpha="1" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Navegación">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cF7-bl-P6D">
+                                <rect key="frame" x="160" y="284" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.49803921569999998" green="0.81960784310000001" blue="0.72549019609999998" alpha="0.84999999999999998" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Media">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nef-Ea-VgH">
+                                <rect key="frame" x="0.0" y="142" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.49803921568627452" green="0.62745098039215685" blue="0.81960784313725488" alpha="0.95000000000000007" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="UI">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bzj-1g-JQa" kind="modal" modalTransitionStyle="flipHorizontal" id="s0S-m2-QL0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vg-c7-GYX">
+                                <rect key="frame" x="160" y="142" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.49803921568627452" green="0.62745098039215685" blue="0.81960784313725488" alpha="0.75" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Social">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="l7j-ip-1KZ" kind="modal" modalTransitionStyle="flipHorizontal" id="4Co-SU-H0H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6D1-xc-HsJ">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.94117647058823528" green="0.36078431372549019" blue="0.32941176470588235" alpha="0.95000000000000007" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Diseño">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qRN-mi-EYi" kind="modal" modalTransitionStyle="flipHorizontal" id="ITX-MW-Y3T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ta-uO-eHc">
+                                <rect key="frame" x="0.0" y="426" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.81960784313725488" green="0.49803921568627452" blue="0.64313725490196072" alpha="0.95000000000000007" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Plugins">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTA-3t-o1x">
+                                <rect key="frame" x="160" y="426" width="160" height="142"/>
+                                <color key="backgroundColor" red="0.81960784313725488" green="0.49803921568627452" blue="0.64313725490196072" alpha="0.75" colorSpace="deviceRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Push">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="SJy-Jk-dAq">
+                                <rect key="frame" x="206" y="332" width="69" height="46"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paperPlane" translatesAutoresizingMaskIntoConstraints="NO" id="Cwm-r7-qsE">
+                                <rect key="frame" x="46" y="333" width="69" height="43"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="WLb-qx-zFw">
+                                <rect key="frame" x="58" y="178" width="44" height="69"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumb" translatesAutoresizingMaskIntoConstraints="NO" id="Qxk-q3-w2O">
+                                <rect key="frame" x="203" y="191" width="75" height="43"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="ZEI-ye-GAB">
+                                <rect key="frame" x="203" y="47" width="75" height="47"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="BP4-Od-SFc">
+                                <rect key="frame" x="46" y="476" width="69" height="42"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="megaphone" translatesAutoresizingMaskIntoConstraints="NO" id="EfJ-qS-V5v">
+                                <rect key="frame" x="206" y="476" width="69" height="41"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pencil" translatesAutoresizingMaskIntoConstraints="NO" id="cvI-lT-pss">
+                                <rect key="frame" x="46" y="53" width="69" height="36"/>
+                            </imageView>
+                        </subviews>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="373" y="402"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="15i-tI-ann">
+            <objects>
+                <viewController id="bzj-1g-JQa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WFN-PI-Mle"/>
+                        <viewControllerLayoutGuide type="bottom" id="SDM-2L-tJv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nZe-y3-zdM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EP7-Wj-zcF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dV7-8Y-G1D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9GT-2l-wH9">
+            <objects>
+                <viewController id="l7j-ip-1KZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mih-Va-1CO"/>
+                        <viewControllerLayoutGuide type="bottom" id="M3x-m9-s9U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dNi-QR-ZpT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NGN-f2-xLr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DF0-Px-sfc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1330" y="394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ugr-8z-sF2">
+            <objects>
+                <viewController id="qRN-mi-EYi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xnk-oY-ubT"/>
+                        <viewControllerLayoutGuide type="bottom" id="SWG-rx-S5m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gbG-Eg-3ou">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAI-pa-UCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="-265"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qkk-EJ-rxD">
+            <objects>
+                <viewController id="IpS-Yc-Ico" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vmP-V8-HOK"/>
+                        <viewControllerLayoutGuide type="bottom" id="uO9-h7-zze"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dgg-bF-lne">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qoj-Yi-ucd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mh6-2G-zcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1330" y="-265"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="compass" width="34" height="34"/>
+        <image name="megaphone" width="34" height="30"/>
+        <image name="paperPlane" width="34" height="34"/>
+        <image name="pencil" width="33" height="33"/>
+        <image name="phone" width="22" height="34"/>
+        <image name="photo" width="34" height="30"/>
+        <image name="thumb" width="34" height="28"/>
+        <image name="user" width="30" height="34"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

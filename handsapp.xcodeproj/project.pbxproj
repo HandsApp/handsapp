@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4243161A5EA97E00F4496B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4243151A5EA97E00F4496B /* LaunchScreen.xib */; };
 		EE7A953E1A2DD35F0057465D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A953D1A2DD35F0057465D /* main.m */; };
 		EE7A95411A2DD35F0057465D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A95401A2DD35F0057465D /* AppDelegate.m */; };
 		EE7A95441A2DD35F0057465D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A95431A2DD35F0057465D /* ViewController.m */; };
 		EE7A95471A2DD35F0057465D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7A95451A2DD35F0057465D /* Main.storyboard */; };
 		EE7A95491A2DD35F0057465D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7A95481A2DD35F0057465D /* Images.xcassets */; };
-		EE7A954C1A2DD35F0057465D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A954A1A2DD35F0057465D /* LaunchScreen.xib */; };
 		EE7A95581A2DD35F0057465D /* handsappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A95571A2DD35F0057465D /* handsappTests.m */; };
+		EE824BE01A37386E00E590B8 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BDF1A37386E00E590B8 /* home.png */; };
+		EE824BE91A373A8C00E590B8 /* paperPlane.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BE21A373A8C00E590B8 /* paperPlane.png */; };
+		EE824BEA1A373A8C00E590B8 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BE31A373A8C00E590B8 /* pencil.png */; };
+		EE824BEB1A373A8C00E590B8 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BE41A373A8C00E590B8 /* phone.png */; };
+		EE824BEC1A373A8C00E590B8 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BE51A373A8C00E590B8 /* photo.png */; };
+		EE824BED1A373A8C00E590B8 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BE61A373A8C00E590B8 /* thumb.png */; };
+		EE824BEE1A373A8C00E590B8 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BE71A373A8C00E590B8 /* user.png */; };
+		EE824BFA1A374A9B00E590B8 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BF81A374A9B00E590B8 /* compass.png */; };
+		EE824BFB1A374A9B00E590B8 /* megaphone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BF91A374A9B00E590B8 /* megaphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE4243151A5EA97E00F4496B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		EE7A95381A2DD35F0057465D /* handsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7A953C1A2DD35F0057465D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7A953D1A2DD35F0057465D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,10 +46,18 @@
 		EE7A95431A2DD35F0057465D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE7A95461A2DD35F0057465D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE7A95481A2DD35F0057465D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EE7A954B1A2DD35F0057465D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EE7A95511A2DD35F0057465D /* handsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = handsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7A95561A2DD35F0057465D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7A95571A2DD35F0057465D /* handsappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = handsappTests.m; sourceTree = "<group>"; };
+		EE824BDF1A37386E00E590B8 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		EE824BE21A373A8C00E590B8 /* paperPlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paperPlane.png; sourceTree = "<group>"; };
+		EE824BE31A373A8C00E590B8 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		EE824BE41A373A8C00E590B8 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		EE824BE51A373A8C00E590B8 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		EE824BE61A373A8C00E590B8 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		EE824BE71A373A8C00E590B8 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		EE824BF81A374A9B00E590B8 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		EE824BF91A374A9B00E590B8 /* megaphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megaphone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,7 @@
 				EE7A953A1A2DD35F0057465D /* handsapp */,
 				EE7A95541A2DD35F0057465D /* handsappTests */,
 				EE7A95391A2DD35F0057465D /* Products */,
+				EE824BDC1A37313D00E590B8 /* Imagenes */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,8 +106,8 @@
 				EE7A95431A2DD35F0057465D /* ViewController.m */,
 				EE7A95451A2DD35F0057465D /* Main.storyboard */,
 				EE7A95481A2DD35F0057465D /* Images.xcassets */,
-				EE7A954A1A2DD35F0057465D /* LaunchScreen.xib */,
 				EE7A953B1A2DD35F0057465D /* Supporting Files */,
+				EE4243151A5EA97E00F4496B /* LaunchScreen.xib */,
 			);
 			path = handsapp;
 			sourceTree = "<group>";
@@ -117,6 +136,23 @@
 				EE7A95561A2DD35F0057465D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE824BDC1A37313D00E590B8 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE824BDF1A37386E00E590B8 /* home.png */,
+				EE824BE21A373A8C00E590B8 /* paperPlane.png */,
+				EE824BE31A373A8C00E590B8 /* pencil.png */,
+				EE824BE41A373A8C00E590B8 /* phone.png */,
+				EE824BF81A374A9B00E590B8 /* compass.png */,
+				EE824BF91A374A9B00E590B8 /* megaphone.png */,
+				EE824BE51A373A8C00E590B8 /* photo.png */,
+				EE824BE61A373A8C00E590B8 /* thumb.png */,
+				EE824BE71A373A8C00E590B8 /* user.png */,
+			);
+			name = Imagenes;
+			path = handsapp/Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +235,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE824BED1A373A8C00E590B8 /* thumb.png in Resources */,
 				EE7A95471A2DD35F0057465D /* Main.storyboard in Resources */,
-				EE7A954C1A2DD35F0057465D /* LaunchScreen.xib in Resources */,
+				EE824BEA1A373A8C00E590B8 /* pencil.png in Resources */,
+				EE824BEE1A373A8C00E590B8 /* user.png in Resources */,
+				EE4243161A5EA97E00F4496B /* LaunchScreen.xib in Resources */,
+				EE824BE91A373A8C00E590B8 /* paperPlane.png in Resources */,
+				EE824BE01A37386E00E590B8 /* home.png in Resources */,
+				EE824BEC1A373A8C00E590B8 /* photo.png in Resources */,
+				EE824BFA1A374A9B00E590B8 /* compass.png in Resources */,
+				EE824BFB1A374A9B00E590B8 /* megaphone.png in Resources */,
+				EE824BEB1A373A8C00E590B8 /* phone.png in Resources */,
 				EE7A95491A2DD35F0057465D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +295,6 @@
 				EE7A95461A2DD35F0057465D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EE7A954A1A2DD35F0057465D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE7A954B1A2DD35F0057465D /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = handsapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = handsapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +451,7 @@
 				EE7A955D1A2DD35F0057465D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE7A955E1A2DD35F0057465D /* Build configuration list for PBXNativeTarget "handsappTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +460,7 @@
 				EE7A95601A2DD35F0057465D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
