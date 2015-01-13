@@ -6,6 +6,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="homeViewController">
             <connections>
+                <outlet property="animaciones_button" destination="wge-Si-hEv" id="Mg6-DP-p7S"/>
+                <outlet property="disenyo_button" destination="bOP-4F-tZ1" id="Mn2-qt-2Pi"/>
+                <outlet property="media_button" destination="e6A-Qd-6z2" id="mDl-24-Oub"/>
+                <outlet property="navegacion_button" destination="Z4n-NH-Kua" id="FVI-e6-ied"/>
+                <outlet property="plugins_button" destination="yf1-o1-8Wv" id="XKy-yD-Guq"/>
+                <outlet property="push_button" destination="YSU-rL-MTM" id="eCr-RW-FLJ"/>
+                <outlet property="sistema_usuarios_button" destination="654-tF-7w5" id="hRq-8G-RMu"/>
+                <outlet property="social_button" destination="3vt-ke-0ih" id="8VE-WO-aoo"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,33 +30,45 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="media:" destination="-1" eventType="touchUpInside" id="VP4-LT-IH2"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSU-rL-MTM">
-                    <rect key="frame" x="160" y="426" width="160" height="142"/>
+                    <rect key="frame" x="0.0" y="426" width="160" height="142"/>
                     <color key="backgroundColor" red="0.81960784310000001" green="0.49803921569999998" blue="0.64313725489999995" alpha="0.75" colorSpace="deviceRGB"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
                     <state key="normal" title="Push">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="push:" destination="-1" eventType="touchUpInside" id="Nso-Vv-XRj"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wge-Si-hEv">
-                    <rect key="frame" x="0.0" y="142" width="160" height="142"/>
+                    <rect key="frame" x="160" y="142" width="160" height="142"/>
                     <color key="backgroundColor" red="0.49803921569999998" green="0.62745098040000002" blue="0.81960784310000001" alpha="0.94999999999999996" colorSpace="deviceRGB"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
                     <state key="normal" title="Animaciones">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="animaciones:" destination="-1" eventType="touchUpInside" id="SSH-Op-fB0"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vt-ke-0ih">
-                    <rect key="frame" x="160" y="142" width="160" height="142"/>
+                    <rect key="frame" x="0.0" y="142" width="160" height="142"/>
                     <color key="backgroundColor" red="0.49803921569999998" green="0.62745098040000002" blue="0.81960784310000001" alpha="0.75" colorSpace="deviceRGB"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
                     <state key="normal" title="Social">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="social:" destination="-1" eventType="touchUpInside" id="Ju4-pq-vz1"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4n-NH-Kua">
                     <rect key="frame" x="0.0" y="284" width="160" height="142"/>
@@ -58,15 +78,21 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="navegacion:" destination="-1" eventType="touchUpInside" id="caD-tW-Lf4"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yf1-o1-8Wv">
-                    <rect key="frame" x="0.0" y="426" width="160" height="142"/>
+                    <rect key="frame" x="160" y="426" width="160" height="142"/>
                     <color key="backgroundColor" red="0.81960784310000001" green="0.49803921569999998" blue="0.64313725489999995" alpha="0.94999999999999996" colorSpace="deviceRGB"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
                     <state key="normal" title="Plugins">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="plugins:" destination="-1" eventType="touchUpInside" id="6km-37-YxM"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="654-tF-7w5">
                     <rect key="frame" x="160" y="0.0" width="160" height="142"/>
@@ -76,6 +102,9 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="sistemaUsuarios:" destination="-1" eventType="touchUpInside" id="r9k-Fh-cTG"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOP-4F-tZ1">
                     <rect key="frame" x="0.0" y="0.0" width="160" height="142"/>
@@ -85,18 +114,18 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="disenyo:" destination="-1" eventType="touchUpInside" id="dF8-U4-CXg"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="s0N-iK-a8p">
                     <rect key="frame" x="203" y="47" width="75" height="47"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-d8-6M1">
-                    <rect key="frame" x="46" y="476" width="69" height="42"/>
-                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="megaphone" translatesAutoresizingMaskIntoConstraints="NO" id="CKG-io-hia">
-                    <rect key="frame" x="206" y="476" width="69" height="41"/>
+                    <rect key="frame" x="46" y="476" width="69" height="41"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumb" translatesAutoresizingMaskIntoConstraints="NO" id="FYs-zH-R8d">
-                    <rect key="frame" x="203" y="191" width="75" height="43"/>
+                    <rect key="frame" x="43" y="191" width="75" height="43"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="1oS-Ow-7ky">
                     <rect key="frame" x="206" y="332" width="69" height="46"/>
@@ -105,13 +134,16 @@
                     <rect key="frame" x="46" y="53" width="69" height="36"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="1ZR-cq-Bqe">
-                    <rect key="frame" x="58" y="178" width="44" height="69"/>
+                    <rect key="frame" x="218" y="178" width="44" height="69"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paperPlane" translatesAutoresizingMaskIntoConstraints="NO" id="Rzf-rG-xZw">
                     <rect key="frame" x="46" y="333" width="69" height="43"/>
                 </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-d8-6M1">
+                    <rect key="frame" x="206" y="476" width="69" height="42"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>

@@ -26,6 +26,25 @@
 		EE7A29A71A63B7A600715B42 /* pluginsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29A51A63B7A600715B42 /* pluginsViewController.xib */; };
 		EE7A29AB1A63B7D900715B42 /* pushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A29A91A63B7D900715B42 /* pushViewController.m */; };
 		EE7A29AC1A63B7D900715B42 /* pushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29AA1A63B7D900715B42 /* pushViewController.xib */; };
+		EE7A29B01A63D06200715B42 /* SEASRN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29AF1A63D06200715B42 /* SEASRN.ttf */; };
+		EE7A29B31A63D83400715B42 /* Static.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29B11A63D31900715B42 /* Static.otf */; };
+		EE7A29B41A63D83700715B42 /* Yonna.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29B21A63D31900715B42 /* Yonna.ttf */; };
+		EE7A29B61A63F01600715B42 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29B51A63F01600715B42 /* left.png */; };
+		EE7A29B81A6526AB00715B42 /* checkboxes.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29B71A6526AB00715B42 /* checkboxes.png */; };
+		EE7A29BD1A6528CC00715B42 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29B91A6528CC00715B42 /* buttons.png */; };
+		EE7A29BE1A6528CC00715B42 /* iconos.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29BA1A6528CC00715B42 /* iconos.png */; };
+		EE7A29BF1A6528CC00715B42 /* inputs.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29BB1A6528CC00715B42 /* inputs.png */; };
+		EE7A29C01A6528CC00715B42 /* tipografias.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29BC1A6528CC00715B42 /* tipografias.png */; };
+		EE7A29CA1A652EC200715B42 /* inputsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A29C81A652EC200715B42 /* inputsViewController.m */; };
+		EE7A29CB1A652EC200715B42 /* inputsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29C91A652EC200715B42 /* inputsViewController.xib */; };
+		EE7A29CF1A652EDC00715B42 /* tipografiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A29CD1A652EDC00715B42 /* tipografiasViewController.m */; };
+		EE7A29D01A652EDC00715B42 /* tipografiasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29CE1A652EDC00715B42 /* tipografiasViewController.xib */; };
+		EE7A29D71A652F2400715B42 /* buttonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A29D51A652F2400715B42 /* buttonsViewController.m */; };
+		EE7A29D81A652F2400715B42 /* buttonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29D61A652F2400715B42 /* buttonsViewController.xib */; };
+		EE7A29DC1A652F3300715B42 /* checkboxesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A29DA1A652F3300715B42 /* checkboxesViewController.m */; };
+		EE7A29DD1A652F3300715B42 /* checkboxesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29DB1A652F3300715B42 /* checkboxesViewController.xib */; };
+		EE7A29E11A652F3E00715B42 /* iconsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A29DF1A652F3E00715B42 /* iconsViewController.m */; };
+		EE7A29E21A652F3E00715B42 /* iconsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29E01A652F3E00715B42 /* iconsViewController.xib */; };
 		EE7A953E1A2DD35F0057465D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A953D1A2DD35F0057465D /* main.m */; };
 		EE7A95411A2DD35F0057465D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A95401A2DD35F0057465D /* AppDelegate.m */; };
 		EE7A95491A2DD35F0057465D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7A95481A2DD35F0057465D /* Images.xcassets */; };
@@ -39,6 +58,7 @@
 		EE824BEE1A373A8C00E590B8 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BE71A373A8C00E590B8 /* user.png */; };
 		EE824BFA1A374A9B00E590B8 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BF81A374A9B00E590B8 /* compass.png */; };
 		EE824BFB1A374A9B00E590B8 /* megaphone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE824BF91A374A9B00E590B8 /* megaphone.png */; };
+		F9D89AC0CC9785035F7EEDF9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CBBC5D1D5C4D5E491C54FC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90CBBC5D1D5C4D5E491C54FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A673F443584A9FBF9488438A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6E9ABD5190D37393CD1B7A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EE4243151A5EA97E00F4496B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		EE7A297F1A63B11000715B42 /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
 		EE7A29801A63B11000715B42 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
@@ -80,6 +103,30 @@
 		EE7A29A81A63B7D900715B42 /* pushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushViewController.h; sourceTree = "<group>"; };
 		EE7A29A91A63B7D900715B42 /* pushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushViewController.m; sourceTree = "<group>"; };
 		EE7A29AA1A63B7D900715B42 /* pushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pushViewController.xib; sourceTree = "<group>"; };
+		EE7A29AF1A63D06200715B42 /* SEASRN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SEASRN.ttf; sourceTree = "<group>"; };
+		EE7A29B11A63D31900715B42 /* Static.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.otf; sourceTree = "<group>"; };
+		EE7A29B21A63D31900715B42 /* Yonna.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yonna.ttf; sourceTree = "<group>"; };
+		EE7A29B51A63F01600715B42 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		EE7A29B71A6526AB00715B42 /* checkboxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxes.png; sourceTree = "<group>"; };
+		EE7A29B91A6528CC00715B42 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
+		EE7A29BA1A6528CC00715B42 /* iconos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconos.png; sourceTree = "<group>"; };
+		EE7A29BB1A6528CC00715B42 /* inputs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputs.png; sourceTree = "<group>"; };
+		EE7A29BC1A6528CC00715B42 /* tipografias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipografias.png; sourceTree = "<group>"; };
+		EE7A29C71A652EC200715B42 /* inputsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputsViewController.h; sourceTree = "<group>"; };
+		EE7A29C81A652EC200715B42 /* inputsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inputsViewController.m; sourceTree = "<group>"; };
+		EE7A29C91A652EC200715B42 /* inputsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = inputsViewController.xib; sourceTree = "<group>"; };
+		EE7A29CC1A652EDC00715B42 /* tipografiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tipografiasViewController.h; sourceTree = "<group>"; };
+		EE7A29CD1A652EDC00715B42 /* tipografiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tipografiasViewController.m; sourceTree = "<group>"; };
+		EE7A29CE1A652EDC00715B42 /* tipografiasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tipografiasViewController.xib; sourceTree = "<group>"; };
+		EE7A29D41A652F2400715B42 /* buttonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buttonsViewController.h; sourceTree = "<group>"; };
+		EE7A29D51A652F2400715B42 /* buttonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = buttonsViewController.m; sourceTree = "<group>"; };
+		EE7A29D61A652F2400715B42 /* buttonsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = buttonsViewController.xib; sourceTree = "<group>"; };
+		EE7A29D91A652F3300715B42 /* checkboxesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkboxesViewController.h; sourceTree = "<group>"; };
+		EE7A29DA1A652F3300715B42 /* checkboxesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkboxesViewController.m; sourceTree = "<group>"; };
+		EE7A29DB1A652F3300715B42 /* checkboxesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = checkboxesViewController.xib; sourceTree = "<group>"; };
+		EE7A29DE1A652F3E00715B42 /* iconsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iconsViewController.h; sourceTree = "<group>"; };
+		EE7A29DF1A652F3E00715B42 /* iconsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iconsViewController.m; sourceTree = "<group>"; };
+		EE7A29E01A652F3E00715B42 /* iconsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iconsViewController.xib; sourceTree = "<group>"; };
 		EE7A95381A2DD35F0057465D /* handsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7A953C1A2DD35F0057465D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7A953D1A2DD35F0057465D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D89AC0CC9785035F7EEDF9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +166,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00CE72400DB2F31825185944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A673F443584A9FBF9488438A /* Pods.debug.xcconfig */,
+				CE6E9ABD5190D37393CD1B7A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F471842249C660D478BF16D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90CBBC5D1D5C4D5E491C54FC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE7A29841A63B54600715B42 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +192,7 @@
 				EE7A29851A63B6BD00715B42 /* disenyoViewController.h */,
 				EE7A29861A63B6BD00715B42 /* disenyoViewController.m */,
 				EE7A29871A63B6BD00715B42 /* disenyoViewController.xib */,
+				EE7A29C11A652E1800715B42 /* Disenyo */,
 				EE7A298A1A63B70A00715B42 /* sistemaUsuariosViewController.h */,
 				EE7A298B1A63B70A00715B42 /* sistemaUsuariosViewController.m */,
 				EE7A298C1A63B70A00715B42 /* sistemaUsuariosViewController.xib */,
@@ -152,6 +218,47 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		EE7A29AD1A63D06200715B42 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				EE7A29AE1A63D06200715B42 /* Fuentes */,
+			);
+			name = Recursos;
+			path = handsapp/Recursos;
+			sourceTree = "<group>";
+		};
+		EE7A29AE1A63D06200715B42 /* Fuentes */ = {
+			isa = PBXGroup;
+			children = (
+				EE7A29B11A63D31900715B42 /* Static.otf */,
+				EE7A29B21A63D31900715B42 /* Yonna.ttf */,
+				EE7A29AF1A63D06200715B42 /* SEASRN.ttf */,
+			);
+			path = Fuentes;
+			sourceTree = "<group>";
+		};
+		EE7A29C11A652E1800715B42 /* Disenyo */ = {
+			isa = PBXGroup;
+			children = (
+				EE7A29C71A652EC200715B42 /* inputsViewController.h */,
+				EE7A29C81A652EC200715B42 /* inputsViewController.m */,
+				EE7A29C91A652EC200715B42 /* inputsViewController.xib */,
+				EE7A29CC1A652EDC00715B42 /* tipografiasViewController.h */,
+				EE7A29CD1A652EDC00715B42 /* tipografiasViewController.m */,
+				EE7A29CE1A652EDC00715B42 /* tipografiasViewController.xib */,
+				EE7A29D41A652F2400715B42 /* buttonsViewController.h */,
+				EE7A29D51A652F2400715B42 /* buttonsViewController.m */,
+				EE7A29D61A652F2400715B42 /* buttonsViewController.xib */,
+				EE7A29D91A652F3300715B42 /* checkboxesViewController.h */,
+				EE7A29DA1A652F3300715B42 /* checkboxesViewController.m */,
+				EE7A29DB1A652F3300715B42 /* checkboxesViewController.xib */,
+				EE7A29DE1A652F3E00715B42 /* iconsViewController.h */,
+				EE7A29DF1A652F3E00715B42 /* iconsViewController.m */,
+				EE7A29E01A652F3E00715B42 /* iconsViewController.xib */,
+			);
+			name = Disenyo;
+			sourceTree = "<group>";
+		};
 		EE7A952F1A2DD35E0057465D = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +266,9 @@
 				EE7A95541A2DD35F0057465D /* handsappTests */,
 				EE7A95391A2DD35F0057465D /* Products */,
 				EE824BDC1A37313D00E590B8 /* Imagenes */,
+				EE7A29AD1A63D06200715B42 /* Recursos */,
+				00CE72400DB2F31825185944 /* Pods */,
+				5F471842249C660D478BF16D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,8 +323,14 @@
 		EE824BDC1A37313D00E590B8 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				EE7A29B51A63F01600715B42 /* left.png */,
+				EE7A29B71A6526AB00715B42 /* checkboxes.png */,
 				EE824BDF1A37386E00E590B8 /* home.png */,
 				EE824BE21A373A8C00E590B8 /* paperPlane.png */,
+				EE7A29B91A6528CC00715B42 /* buttons.png */,
+				EE7A29BA1A6528CC00715B42 /* iconos.png */,
+				EE7A29BB1A6528CC00715B42 /* inputs.png */,
+				EE7A29BC1A6528CC00715B42 /* tipografias.png */,
 				EE824BE31A373A8C00E590B8 /* pencil.png */,
 				EE824BE41A373A8C00E590B8 /* phone.png */,
 				EE824BF81A374A9B00E590B8 /* compass.png */,
@@ -234,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE7A955B1A2DD35F0057465D /* Build configuration list for PBXNativeTarget "handsapp" */;
 			buildPhases = (
+				13E71FF7DEC7621C4877ADC5 /* Check Pods Manifest.lock */,
 				EE7A95341A2DD35F0057465D /* Sources */,
 				EE7A95351A2DD35F0057465D /* Frameworks */,
 				EE7A95361A2DD35F0057465D /* Resources */,
+				501D57265ADEC253C1DC53A5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,25 +426,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE824BED1A373A8C00E590B8 /* thumb.png in Resources */,
+				EE7A29CB1A652EC200715B42 /* inputsViewController.xib in Resources */,
 				EE7A29931A63B71B00715B42 /* animacionesViewController.xib in Resources */,
 				EE824BEA1A373A8C00E590B8 /* pencil.png in Resources */,
 				EE7A29981A63B75100715B42 /* socialViewController.xib in Resources */,
+				EE7A29B81A6526AB00715B42 /* checkboxes.png in Resources */,
 				EE824BEE1A373A8C00E590B8 /* user.png in Resources */,
 				EE7A29831A63B11000715B42 /* homeViewController.xib in Resources */,
+				EE7A29C01A6528CC00715B42 /* tipografias.png in Resources */,
 				EE4243161A5EA97E00F4496B /* LaunchScreen.xib in Resources */,
+				EE7A29BF1A6528CC00715B42 /* inputs.png in Resources */,
 				EE824BE91A373A8C00E590B8 /* paperPlane.png in Resources */,
 				EE7A299D1A63B77700715B42 /* navegacionViewController.xib in Resources */,
 				EE7A29A71A63B7A600715B42 /* pluginsViewController.xib in Resources */,
+				EE7A29DD1A652F3300715B42 /* checkboxesViewController.xib in Resources */,
 				EE824BE01A37386E00E590B8 /* home.png in Resources */,
+				EE7A29B31A63D83400715B42 /* Static.otf in Resources */,
 				EE824BEC1A373A8C00E590B8 /* photo.png in Resources */,
+				EE7A29B41A63D83700715B42 /* Yonna.ttf in Resources */,
+				EE7A29B61A63F01600715B42 /* left.png in Resources */,
 				EE824BFA1A374A9B00E590B8 /* compass.png in Resources */,
+				EE7A29E21A652F3E00715B42 /* iconsViewController.xib in Resources */,
+				EE7A29D01A652EDC00715B42 /* tipografiasViewController.xib in Resources */,
 				EE7A29891A63B6BD00715B42 /* disenyoViewController.xib in Resources */,
 				EE7A29AC1A63B7D900715B42 /* pushViewController.xib in Resources */,
 				EE824BFB1A374A9B00E590B8 /* megaphone.png in Resources */,
+				EE7A29D81A652F2400715B42 /* buttonsViewController.xib in Resources */,
 				EE824BEB1A373A8C00E590B8 /* phone.png in Resources */,
 				EE7A298E1A63B70A00715B42 /* sistemaUsuariosViewController.xib in Resources */,
 				EE7A95491A2DD35F0057465D /* Images.xcassets in Resources */,
+				EE7A29BE1A6528CC00715B42 /* iconos.png in Resources */,
+				EE7A29BD1A6528CC00715B42 /* buttons.png in Resources */,
 				EE7A29A21A63B78300715B42 /* mediaViewController.xib in Resources */,
+				EE7A29B01A63D06200715B42 /* SEASRN.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +471,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E71FF7DEC7621C4877ADC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		501D57265ADEC253C1DC53A5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE7A95341A2DD35F0057465D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -349,12 +514,17 @@
 				EE7A29921A63B71B00715B42 /* animacionesViewController.m in Sources */,
 				EE7A29881A63B6BD00715B42 /* disenyoViewController.m in Sources */,
 				EE7A95411A2DD35F0057465D /* AppDelegate.m in Sources */,
+				EE7A29DC1A652F3300715B42 /* checkboxesViewController.m in Sources */,
 				EE7A953E1A2DD35F0057465D /* main.m in Sources */,
 				EE7A29821A63B11000715B42 /* homeViewController.m in Sources */,
 				EE7A29A11A63B78300715B42 /* mediaViewController.m in Sources */,
 				EE7A29A61A63B7A600715B42 /* pluginsViewController.m in Sources */,
 				EE7A298D1A63B70A00715B42 /* sistemaUsuariosViewController.m in Sources */,
+				EE7A29E11A652F3E00715B42 /* iconsViewController.m in Sources */,
+				EE7A29CF1A652EDC00715B42 /* tipografiasViewController.m in Sources */,
 				EE7A299C1A63B77700715B42 /* navegacionViewController.m in Sources */,
+				EE7A29D71A652F2400715B42 /* buttonsViewController.m in Sources */,
+				EE7A29CA1A652EC200715B42 /* inputsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +625,7 @@
 		};
 		EE7A955C1A2DD35F0057465D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A673F443584A9FBF9488438A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -466,6 +637,7 @@
 		};
 		EE7A955D1A2DD35F0057465D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6E9ABD5190D37393CD1B7A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

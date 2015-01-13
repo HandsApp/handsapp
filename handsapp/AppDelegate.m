@@ -21,6 +21,10 @@
     
     homeViewController *vc = [[homeViewController alloc] init];
     self.window.rootViewController = vc;
+    
+    [UIApplication sharedApplication].statusBarHidden = YES;
+    
+    
     return YES;
 }
 
