@@ -20,10 +20,10 @@
     // Override point for customization after application launch.
     
     homeViewController *vc = [[homeViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = vc;
     
     [UIApplication sharedApplication].statusBarHidden = YES;
-    
     
     return YES;
 }

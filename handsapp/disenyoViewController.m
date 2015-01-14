@@ -53,23 +53,23 @@
     
     POPSpringAnimation *onscreenAnimation2 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
     onscreenAnimation2.toValue = [NSValue valueWithCGRect:CGRectMake(246, 0, 0, 0)];
-    onscreenAnimation2.springSpeed = 1.5f;
+    onscreenAnimation2.springSpeed = 2.f;
     [self.inputs_button.layer pop_addAnimation:onscreenAnimation2 forKey:@"onscreenAnimation2"];
     POPSpringAnimation *onscreenAnimation3 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
     onscreenAnimation3.toValue = [NSValue valueWithCGRect:CGRectMake(246, 0, 0, 0)];
-    onscreenAnimation3.springSpeed = 1.f;
+    onscreenAnimation3.springSpeed = 1.5f;
     [self.tipografias_button.layer pop_addAnimation:onscreenAnimation3 forKey:@"onscreenAnimation3"];
     POPSpringAnimation *onscreenAnimation4 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
     onscreenAnimation4.toValue = [NSValue valueWithCGRect:CGRectMake(246, 0, 0, 0)];
-    onscreenAnimation4.springSpeed = 0.8f;
+    onscreenAnimation4.springSpeed = 1.2f;
     [self.buttons_button.layer pop_addAnimation:onscreenAnimation4 forKey:@"onscreenAnimation4"];
     POPSpringAnimation *onscreenAnimation5 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
     onscreenAnimation5.toValue = [NSValue valueWithCGRect:CGRectMake(246, 0, 0, 0)];
-    onscreenAnimation5.springSpeed = 0.4f;
+    onscreenAnimation5.springSpeed = 1.f;
     [self.checkboxes_button.layer pop_addAnimation:onscreenAnimation5 forKey:@"onscreenAnimation5"];
     POPSpringAnimation *onscreenAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
     onscreenAnimation.toValue = [NSValue valueWithCGRect:CGRectMake(246, 0, 0, 0)];
-    onscreenAnimation.springSpeed = 0.2f;
+    onscreenAnimation.springSpeed = 0.8f;
     [self.iconos_button.layer pop_addAnimation:onscreenAnimation forKey:@"onscreenAnimation"];
     
     //Animaciones para el sidebar
@@ -83,13 +83,13 @@
     POPSpringAnimation *onscreenAnimation7 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionY];
     onscreenAnimation7.toValue = [NSValue valueWithCGRect:CGRectMake(169, 0, 0, 0)];
     onscreenAnimation7.springBounciness= 0.f;
-    onscreenAnimation7.springSpeed = 1.1f;
+    onscreenAnimation7.springSpeed = 1.7f;
     [self.pencil_image.layer pop_addAnimation:onscreenAnimation7 forKey:@"onscreenAnimation7"];
     
     POPSpringAnimation *onscreenAnimation8 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionY];
     onscreenAnimation8.toValue = [NSValue valueWithCGRect:CGRectMake(399, 0, 0, 0)];
     onscreenAnimation8.springBounciness= 0.f;
-    onscreenAnimation8.springSpeed = 1.1f;
+    onscreenAnimation8.springSpeed = 1.7f;
     [self.explicacion.layer pop_addAnimation:onscreenAnimation8 forKey:@"onscreenAnimation8"];
 }
 
