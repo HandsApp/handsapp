@@ -2,6 +2,8 @@
 # platform :ios, '6.0'
 
 pod 'pop', '~> 1.0'
+pod 'FlatUIKit'
+
 target 'handsapp' do
 
 end

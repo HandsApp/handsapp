@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FUIAlertView.h"
 
-@interface buttonsViewController : UIViewController
+@interface buttonsViewController : UIViewController <UIActionSheetDelegate, FUIAlertViewDelegate>
 
 @end

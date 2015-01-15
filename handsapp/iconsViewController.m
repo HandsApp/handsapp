@@ -10,6 +10,7 @@
 #import "disenyoViewController.h"
 
 @interface iconsViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *volver_button;
 
 @end
 
@@ -17,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    UIFont *customFont2 = [UIFont fontWithName:@"Static" size:23];
+    _volver_button.titleLabel.font = customFont2;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -6,7 +6,17 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="buttonsViewController">
             <connections>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="alertViewButton" destination="9AL-ze-4ff" id="KJf-05-Ndu"/>
+                <outlet property="boton" destination="Dsn-tE-M2s" id="db5-9t-FBn"/>
+                <outlet property="boton2" destination="742-pE-B6o" id="jad-m9-r9k"/>
+                <outlet property="boton3" destination="tQ8-Ah-TpG" id="RII-uM-91H"/>
+                <outlet property="boton4" destination="K0B-hE-Byw" id="VKp-JW-7ME"/>
+                <outlet property="boton5" destination="Ov5-5T-74p" id="Ig9-Zp-bOw"/>
+                <outlet property="boton6" destination="JNz-Q2-X6W" id="HNv-In-Gxg"/>
+                <outlet property="boton7" destination="bDA-RH-Vrp" id="7Nb-U9-iQB"/>
+                <outlet property="titulo" destination="YPj-hQ-TWK" id="lwI-ug-sbZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Vgx-rD-OJ1"/>
+                <outlet property="volver_button" destination="kno-rf-gXq" id="jEt-C6-BnG"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -17,16 +27,87 @@
                 <button opaque="NO" contentMode="left" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kno-rf-gXq">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
                     <color key="backgroundColor" red="0.84070073339999996" green="0.2483888531" blue="0.2483888531" alpha="0.94999999999999996" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="    Volver Pantalla Principal" image="left">
+                    <state key="normal" title="    Volver Diseño" image="left">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="volver:" destination="-1" eventType="touchUpInside" id="GSG-P2-3PJ"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AL-ze-4ff" customClass="FUIButton">
+                    <rect key="frame" x="64" y="417" width="192" height="46"/>
+                    <state key="normal" title="¡Enséñame un alert!">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showAlertView:" destination="-1" eventType="touchUpInside" id="8Ts-N4-08L"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsn-tE-M2s" customClass="FUIButton">
+                    <rect key="frame" x="4" y="147" width="154" height="55"/>
+                    <state key="normal" title="Un botón cualquiera">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="742-pE-B6o" customClass="FUIButton">
+                    <rect key="frame" x="163" y="147" width="154" height="55"/>
+                    <state key="normal" title="Otro cualquiera">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQ8-Ah-TpG" customClass="FUIButton">
+                    <rect key="frame" x="4" y="230" width="154" height="55"/>
+                    <state key="normal" title="Y otro más">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="efectos:" destination="-1" eventType="touchUpInside" id="2mP-dk-uYv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0B-hE-Byw" customClass="FUIButton">
+                    <rect key="frame" x="163" y="230" width="154" height="55"/>
+                    <state key="normal" title="Y otro">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cambioBK:" destination="-1" eventType="touchUpInside" id="X5k-OE-ZeF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ov5-5T-74p" customClass="FUIButton">
+                    <rect key="frame" x="4" y="309" width="154" height="55"/>
+                    <state key="normal" title="Y más">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="efectos2:" destination="-1" eventType="touchUpInside" id="V5V-bR-xc5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNz-Q2-X6W" customClass="FUIButton">
+                    <rect key="frame" x="163" y="309" width="154" height="55"/>
+                    <state key="normal" title="El último">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Algunos botones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPj-hQ-TWK">
+                    <rect key="frame" x="35" y="78" width="250" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDA-RH-Vrp" customClass="FUIButton">
+                    <rect key="frame" x="111" y="488" width="99" height="41"/>
+                    <state key="normal" title="Botón Peque">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="efecto3:" destination="-1" eventType="touchUpInside" id="617-4h-6TL"/>
+                        <action selector="efectos2:" destination="-1" eventType="touchUpInside" id="2np-71-9gb"/>
+                    </connections>
+                </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.65490196079999996" green="0.65490196079999996" blue="0.65490196079999996" alpha="0.25" colorSpace="calibratedRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="149" y="145"/>
         </view>
     </objects>
     <resources>
