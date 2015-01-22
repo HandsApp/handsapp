@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6306B1CC1A715DE5001CAE68 /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306B1CA1A715DE5001CAE68 /* profileViewController.m */; };
+		6306B1CD1A715DE5001CAE68 /* profileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6306B1CB1A715DE5001CAE68 /* profileViewController.xib */; };
 		63C54D781A71503C00E34F5A /* dropdownMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54D771A71503C00E34F5A /* dropdownMenuViewController.m */; };
 		63C54D7D1A71508D00E34F5A /* radialMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54D7B1A71508D00E34F5A /* radialMenuViewController.m */; };
 		63C54D7E1A71508D00E34F5A /* radialMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C54D7C1A71508D00E34F5A /* radialMenuViewController.xib */; };
@@ -78,6 +80,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6306B1C91A715DE5001CAE68 /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
+		6306B1CA1A715DE5001CAE68 /* profileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
+		6306B1CB1A715DE5001CAE68 /* profileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profileViewController.xib; sourceTree = "<group>"; };
 		63C54D761A71503C00E34F5A /* dropdownMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dropdownMenuViewController.h; sourceTree = "<group>"; };
 		63C54D771A71503C00E34F5A /* dropdownMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dropdownMenuViewController.m; sourceTree = "<group>"; };
 		63C54D7A1A71508D00E34F5A /* radialMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radialMenuViewController.h; sourceTree = "<group>"; };
@@ -200,6 +205,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6306B1C71A715CB4001CAE68 /* SistemaUsuarios */ = {
+			isa = PBXGroup;
+			children = (
+				6306B1C81A715DAF001CAE68 /* profile */,
+				EE7A298A1A63B70A00715B42 /* sistemaUsuariosViewController.h */,
+				EE7A298B1A63B70A00715B42 /* sistemaUsuariosViewController.m */,
+				EE7A298C1A63B70A00715B42 /* sistemaUsuariosViewController.xib */,
+			);
+			name = SistemaUsuarios;
+			sourceTree = "<group>";
+		};
+		6306B1C81A715DAF001CAE68 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				6306B1C91A715DE5001CAE68 /* profileViewController.h */,
+				6306B1CA1A715DE5001CAE68 /* profileViewController.m */,
+				6306B1CB1A715DE5001CAE68 /* profileViewController.xib */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
 		63C54D731A714F1D00E34F5A /* Navegacion */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,9 +281,7 @@
 				EE7A29861A63B6BD00715B42 /* disenyoViewController.m */,
 				EE7A29871A63B6BD00715B42 /* disenyoViewController.xib */,
 				EE7A29C11A652E1800715B42 /* Disenyo */,
-				EE7A298A1A63B70A00715B42 /* sistemaUsuariosViewController.h */,
-				EE7A298B1A63B70A00715B42 /* sistemaUsuariosViewController.m */,
-				EE7A298C1A63B70A00715B42 /* sistemaUsuariosViewController.xib */,
+				6306B1C71A715CB4001CAE68 /* SistemaUsuarios */,
 				EE7A298F1A63B71B00715B42 /* animacionesViewController.h */,
 				EE7A29901A63B71B00715B42 /* animacionesViewController.m */,
 				EE7A29911A63B71B00715B42 /* animacionesViewController.xib */,
@@ -511,6 +535,7 @@
 				EE7A29D01A652EDC00715B42 /* tipografiasViewController.xib in Resources */,
 				EE7A29891A63B6BD00715B42 /* disenyoViewController.xib in Resources */,
 				EE7A29AC1A63B7D900715B42 /* pushViewController.xib in Resources */,
+				6306B1CD1A715DE5001CAE68 /* profileViewController.xib in Resources */,
 				EE824BFB1A374A9B00E590B8 /* megaphone.png in Resources */,
 				EE7A29D81A652F2400715B42 /* buttonsViewController.xib in Resources */,
 				EE824BEB1A373A8C00E590B8 /* phone.png in Resources */,
@@ -580,6 +605,7 @@
 				63C54D871A7152B400E34F5A /* sideMenuRightViewController.m in Sources */,
 				63C54D861A7152B400E34F5A /* sideMenuLeftViewController.m in Sources */,
 				EE7A953E1A2DD35F0057465D /* main.m in Sources */,
+				6306B1CC1A715DE5001CAE68 /* profileViewController.m in Sources */,
 				63C54D881A7152B400E34F5A /* sideMenuRootViewController.m in Sources */,
 				EE7A29821A63B11000715B42 /* homeViewController.m in Sources */,
 				EE7A29A11A63B78300715B42 /* mediaViewController.m in Sources */,
