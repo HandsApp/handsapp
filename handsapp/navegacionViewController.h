@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RESideMenu/RESideMenu.h>
 
-@interface navegacionViewController : UIViewController
+@interface navegacionViewController : UIViewController <RESideMenuDelegate>
 
 @end

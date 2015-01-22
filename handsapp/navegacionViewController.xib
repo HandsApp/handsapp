@@ -1,20 +1,116 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="navegacionViewController">
             <connections>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="dropdown_menu_button" destination="cEo-Fn-Qq6" id="Kn5-UO-3RW"/>
+                <outlet property="explicacion" destination="Xvp-uh-rSs" id="cBl-RX-Edt"/>
+                <outlet property="label_navegacion" destination="23s-Qq-56z" id="BYz-7M-Rze"/>
+                <outlet property="paper_plane_image" destination="1jS-Uy-bIB" id="A9E-RV-GUT"/>
+                <outlet property="radial_menu_button" destination="1DQ-Ji-q2I" id="yt3-zD-MBU"/>
+                <outlet property="side_menu_button" destination="oSL-dO-cd2" id="J8a-DV-PHd"/>
+                <outlet property="sidebar" destination="ELN-7d-Aaz" id="unu-qv-3VC"/>
+                <outlet property="tabbar_menu_button" destination="4TP-y7-pzP" id="Plw-th-nm7"/>
+                <outlet property="view" destination="3IL-qX-Unk" id="bUz-YR-VNu"/>
+                <outlet property="volver_button" destination="kqi-YQ-Hws" id="Sg8-hg-Iaa"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="3IL-qX-Unk">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ELN-7d-Aaz">
+                    <rect key="frame" x="0.0" y="0.0" width="171" height="568"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Navegación" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23s-Qq-56z">
+                            <rect key="frame" x="-200" y="179" width="133" height="89"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvp-uh-rSs">
+                            <rect key="frame" x="0.0" y="595" width="171" height="284"/>
+                            <string key="text">Uno de los pilares fundamentales para que una app llegue a la excelencia es el diseño. Por esta razón hemos desarrollado una serie de recursos que podemos reutilizar y que harán que el diseño de tu app sea mejor y te lo podremos entregar más barato y rápido</string>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paperPlane" translatesAutoresizingMaskIntoConstraints="NO" id="1jS-Uy-bIB">
+                            <rect key="frame" x="8" y="-70" width="172" height="57"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.43018511879999999" green="0.86880523990000003" blue="0.70344644150000002" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="left" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqi-YQ-Hws" userLabel="Volver Pantalla Principal">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+                    <color key="backgroundColor" red="0.37254901959999998" green="0.74901960779999999" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="    Volver Pantalla Principal" image="left">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="volver:" destination="-1" eventType="touchUpInside" id="osI-E0-dEF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DQ-Ji-q2I" userLabel="RadialMenu">
+                    <rect key="frame" x="320" y="57" width="152" height="57"/>
+                    <color key="backgroundColor" red="0.28292501009999999" green="0.57139756939999997" blue="0.46264406390000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="  Menú Radial">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="radialMenu:" destination="-1" eventType="touchUpInside" id="Brm-9h-4f8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSL-dO-cd2" userLabel="SideMenu">
+                    <rect key="frame" x="320" y="114" width="152" height="57"/>
+                    <color key="backgroundColor" red="0.24757281549999999" green="0.5" blue="0.40483551960000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="  Menú Lateral">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sideMenu:" destination="-1" eventType="touchUpInside" id="wsH-f9-CRi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEo-Fn-Qq6" userLabel="DropdownMenu">
+                    <rect key="frame" x="320" y="171" width="152" height="57"/>
+                    <color key="backgroundColor" red="0.28292501009999999" green="0.57139756939999997" blue="0.46264406390000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="  Menú Desplegable">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="dropdownMenu:" destination="-1" eventType="touchUpInside" id="5ay-5w-8Od"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TP-y7-pzP" userLabel="TabbarMenu">
+                    <rect key="frame" x="320" y="228" width="152" height="57"/>
+                    <color key="backgroundColor" red="0.24757281549999999" green="0.5" blue="0.40483551960000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Menú Inferior">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tabbarMenu:" destination="-1" eventType="touchUpInside" id="QG1-aQ-qkl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.37254901959999998" green="0.74901960779999999" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="308" y="312"/>
         </view>
     </objects>
+    <resources>
+        <image name="left" width="18" height="35"/>
+        <image name="paperPlane" width="34" height="34"/>
+    </resources>
 </document>

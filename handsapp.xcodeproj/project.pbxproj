@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C54D781A71503C00E34F5A /* dropdownMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54D771A71503C00E34F5A /* dropdownMenuViewController.m */; };
+		63C54D7D1A71508D00E34F5A /* radialMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54D7B1A71508D00E34F5A /* radialMenuViewController.m */; };
+		63C54D7E1A71508D00E34F5A /* radialMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C54D7C1A71508D00E34F5A /* radialMenuViewController.xib */; };
+		63C54D861A7152B400E34F5A /* sideMenuLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54D811A7152B400E34F5A /* sideMenuLeftViewController.m */; };
+		63C54D871A7152B400E34F5A /* sideMenuRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54D831A7152B400E34F5A /* sideMenuRightViewController.m */; };
+		63C54D881A7152B400E34F5A /* sideMenuRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54D851A7152B400E34F5A /* sideMenuRootViewController.m */; };
 		EE4243161A5EA97E00F4496B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4243151A5EA97E00F4496B /* LaunchScreen.xib */; };
 		EE7A29821A63B11000715B42 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A29801A63B11000715B42 /* homeViewController.m */; };
 		EE7A29831A63B11000715B42 /* homeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A29811A63B11000715B42 /* homeViewController.xib */; };
@@ -72,6 +78,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63C54D761A71503C00E34F5A /* dropdownMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dropdownMenuViewController.h; sourceTree = "<group>"; };
+		63C54D771A71503C00E34F5A /* dropdownMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dropdownMenuViewController.m; sourceTree = "<group>"; };
+		63C54D7A1A71508D00E34F5A /* radialMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radialMenuViewController.h; sourceTree = "<group>"; };
+		63C54D7B1A71508D00E34F5A /* radialMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = radialMenuViewController.m; sourceTree = "<group>"; };
+		63C54D7C1A71508D00E34F5A /* radialMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = radialMenuViewController.xib; sourceTree = "<group>"; };
+		63C54D801A7152B400E34F5A /* sideMenuLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideMenuLeftViewController.h; sourceTree = "<group>"; };
+		63C54D811A7152B400E34F5A /* sideMenuLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideMenuLeftViewController.m; sourceTree = "<group>"; };
+		63C54D821A7152B400E34F5A /* sideMenuRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideMenuRightViewController.h; sourceTree = "<group>"; };
+		63C54D831A7152B400E34F5A /* sideMenuRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideMenuRightViewController.m; sourceTree = "<group>"; };
+		63C54D841A7152B400E34F5A /* sideMenuRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideMenuRootViewController.h; sourceTree = "<group>"; };
+		63C54D851A7152B400E34F5A /* sideMenuRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideMenuRootViewController.m; sourceTree = "<group>"; };
 		90CBBC5D1D5C4D5E491C54FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A673F443584A9FBF9488438A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6E9ABD5190D37393CD1B7A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +200,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		63C54D731A714F1D00E34F5A /* Navegacion */ = {
+			isa = PBXGroup;
+			children = (
+				63C54D7F1A7150A000E34F5A /* sideMenu */,
+				63C54D791A71504A00E34F5A /* radialMenu */,
+				63C54D751A71502600E34F5A /* dropdownMenu */,
+				EE7A29991A63B77700715B42 /* navegacionViewController.h */,
+				EE7A299A1A63B77700715B42 /* navegacionViewController.m */,
+				EE7A299B1A63B77700715B42 /* navegacionViewController.xib */,
+			);
+			name = Navegacion;
+			sourceTree = "<group>";
+		};
+		63C54D751A71502600E34F5A /* dropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				63C54D761A71503C00E34F5A /* dropdownMenuViewController.h */,
+				63C54D771A71503C00E34F5A /* dropdownMenuViewController.m */,
+			);
+			name = dropdownMenu;
+			sourceTree = "<group>";
+		};
+		63C54D791A71504A00E34F5A /* radialMenu */ = {
+			isa = PBXGroup;
+			children = (
+				63C54D7A1A71508D00E34F5A /* radialMenuViewController.h */,
+				63C54D7B1A71508D00E34F5A /* radialMenuViewController.m */,
+				63C54D7C1A71508D00E34F5A /* radialMenuViewController.xib */,
+			);
+			name = radialMenu;
+			sourceTree = "<group>";
+		};
+		63C54D7F1A7150A000E34F5A /* sideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				63C54D801A7152B400E34F5A /* sideMenuLeftViewController.h */,
+				63C54D811A7152B400E34F5A /* sideMenuLeftViewController.m */,
+				63C54D821A7152B400E34F5A /* sideMenuRightViewController.h */,
+				63C54D831A7152B400E34F5A /* sideMenuRightViewController.m */,
+				63C54D841A7152B400E34F5A /* sideMenuRootViewController.h */,
+				63C54D851A7152B400E34F5A /* sideMenuRootViewController.m */,
+			);
+			name = sideMenu;
+			sourceTree = "<group>";
+		};
 		EE7A29841A63B54600715B42 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,9 +264,7 @@
 				EE7A29941A63B75100715B42 /* socialViewController.h */,
 				EE7A29951A63B75100715B42 /* socialViewController.m */,
 				EE7A29961A63B75100715B42 /* socialViewController.xib */,
-				EE7A29991A63B77700715B42 /* navegacionViewController.h */,
-				EE7A299A1A63B77700715B42 /* navegacionViewController.m */,
-				EE7A299B1A63B77700715B42 /* navegacionViewController.xib */,
+				63C54D731A714F1D00E34F5A /* Navegacion */,
 				EE7A299E1A63B78300715B42 /* mediaViewController.h */,
 				EE7A299F1A63B78300715B42 /* mediaViewController.m */,
 				EE7A29A01A63B78300715B42 /* mediaViewController.xib */,
@@ -444,6 +504,7 @@
 				EE7A29B31A63D83400715B42 /* Static.otf in Resources */,
 				EE824BEC1A373A8C00E590B8 /* photo.png in Resources */,
 				EE7A29B41A63D83700715B42 /* Yonna.ttf in Resources */,
+				63C54D7E1A71508D00E34F5A /* radialMenuViewController.xib in Resources */,
 				EE7A29B61A63F01600715B42 /* left.png in Resources */,
 				EE824BFA1A374A9B00E590B8 /* compass.png in Resources */,
 				EE7A29E21A652F3E00715B42 /* iconsViewController.xib in Resources */,
@@ -510,16 +571,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7A29971A63B75100715B42 /* socialViewController.m in Sources */,
+				63C54D781A71503C00E34F5A /* dropdownMenuViewController.m in Sources */,
 				EE7A29AB1A63B7D900715B42 /* pushViewController.m in Sources */,
 				EE7A29921A63B71B00715B42 /* animacionesViewController.m in Sources */,
 				EE7A29881A63B6BD00715B42 /* disenyoViewController.m in Sources */,
 				EE7A95411A2DD35F0057465D /* AppDelegate.m in Sources */,
 				EE7A29DC1A652F3300715B42 /* checkboxesViewController.m in Sources */,
+				63C54D871A7152B400E34F5A /* sideMenuRightViewController.m in Sources */,
+				63C54D861A7152B400E34F5A /* sideMenuLeftViewController.m in Sources */,
 				EE7A953E1A2DD35F0057465D /* main.m in Sources */,
+				63C54D881A7152B400E34F5A /* sideMenuRootViewController.m in Sources */,
 				EE7A29821A63B11000715B42 /* homeViewController.m in Sources */,
 				EE7A29A11A63B78300715B42 /* mediaViewController.m in Sources */,
 				EE7A29A61A63B7A600715B42 /* pluginsViewController.m in Sources */,
 				EE7A298D1A63B70A00715B42 /* sistemaUsuariosViewController.m in Sources */,
+				63C54D7D1A71508D00E34F5A /* radialMenuViewController.m in Sources */,
 				EE7A29E11A652F3E00715B42 /* iconsViewController.m in Sources */,
 				EE7A29CF1A652EDC00715B42 /* tipografiasViewController.m in Sources */,
 				EE7A299C1A63B77700715B42 /* navegacionViewController.m in Sources */,

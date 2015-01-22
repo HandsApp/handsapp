@@ -47,7 +47,10 @@ install_resource()
       ;;
   esac
 }
-          install_resource "FlatUIKit/Resources/Lato-Bold.ttf"
+          install_resource "DCPathButton/DCPathButton/Sounds/bloom.caf"
+                    install_resource "DCPathButton/DCPathButton/Sounds/fold.caf"
+                    install_resource "DCPathButton/DCPathButton/Sounds/selected.caf"
+                    install_resource "FlatUIKit/Resources/Lato-Bold.ttf"
                     install_resource "FlatUIKit/Resources/Lato-Italic.ttf"
                     install_resource "FlatUIKit/Resources/Lato-Light.ttf"
                     install_resource "FlatUIKit/Resources/Lato-Regular.ttf"

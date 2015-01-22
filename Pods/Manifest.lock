@@ -1,13 +1,25 @@
 PODS:
+  - DCPathButton (2.0.3)
   - FlatUIKit (1.5)
   - pop (1.0.7)
+  - RESideMenu (4.0.7)
+  - RKCardView (0.1.0)
+  - RWDropdownMenu (1.0.1)
 
 DEPENDENCIES:
+  - DCPathButton (~> 2.0.2)
   - FlatUIKit
   - pop (~> 1.0)
+  - RESideMenu (~> 4.0.7)
+  - RKCardView
+  - RWDropdownMenu (~> 1.0.0)
 
 SPEC CHECKSUMS:
+  DCPathButton: d124eb5f1cbf3c07636127bf477443699b5e96f0
   FlatUIKit: 5452fa3fca41e6f04014cca6e81b4c2f961f623c
   pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  RESideMenu: a9c1cd2e64e60e1d3166ddac01a83e215a0e4d30
+  RKCardView: bb96e9288f1ccc34468a2d52c5f83bcf58a506ee
+  RWDropdownMenu: 74ad34e54804b33acac90cf54653a0cf9b59a689
 
 COCOAPODS: 0.35.0
