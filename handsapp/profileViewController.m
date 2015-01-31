@@ -49,7 +49,7 @@
     
     cardView.coverImageView.image = [UIImage imageNamed:@"profileCoverPhoto"];
     cardView.profileImageView.image = [UIImage imageNamed:@"profilePicture"];
-    cardView.titleLabel.text = @"Martina Fowler";
+    cardView.titleLabel.text = @"Martina Crawler";
     cardView.titleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:20];
     //[cardView addBlur]; // comment this out if you don't want blur
     [cardView addShadow]; // comment this out if you don't want a shadow
